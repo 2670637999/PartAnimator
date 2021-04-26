@@ -7,3 +7,4 @@
 ```
 <link rel="stylesheet" href="https://partanimator.glumi.cn/PartAnimator.css">
 ```
+相关文档：https://blog.glumi.cn/47.html
