@@ -3,7 +3,6 @@
         opacity: 0;
     }
     100% {
-        transform: translate3d(300);
         opacity: 1;
     }
 }
@@ -98,4 +97,111 @@
 }
 .partOutZoom {
     animation: partOutZoom 1s;
+}
+@keyframes partInPut {
+    0% {
+        transform: scale(2);
+        opacity: 0;
+    }
+    25% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes partOutPut {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+.partInPut {
+    animation: partInPut 1s;
+}
+.partOutPut {
+    animation: partOutPut 1s; 
+}
+@keyframes partInRotation {
+	0% {
+        transform: translateY(-100%) rotate(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%) rotate(-360deg);
+        opacity: 1;
+    }
+}
+@keyframes partOutRotation {
+	0% {
+        transform: translateY(0%) rotate(-360deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0%) rotate(0deg);
+        opacity: 0;
+    }
+}
+.partInRotation {
+    animation: partInRotation 1.5s;
+}
+.partOutRotation {
+    animation: partOutRotation 1s;
+}
+@keyframes partInSurround {
+	from{
+		transform: translate(50%, 0px)
+		rotate(0turn)
+		translate(-50%, 0px)
+		translate(50%,50%)
+		rotate(1turn)
+		translate(-50%,-50%);
+        opacity: 0;
+	}
+	to{
+		transform: translate(50%, 0px)
+		rotate(1turn)
+		translate(-50%, 0px)
+		translate(50%,50%)
+		rotate(0turn)
+		translate(-50%,-50%);
+        opacity: 1;
+	}
+}
+@keyframes partOutSurround {
+	from{
+		transform: translate(50%, 0px)
+		rotate(0turn)
+		translate(-50%, 0px)
+		translate(50%,50%)
+		rotate(1turn)
+		translate(-50%,-50%);
+        opacity: 1;
+	}
+	to{
+		transform: translate(-50%, 0px)
+		rotate(1turn)
+		translate(-50%, 0px)
+		translate(50%,50%)
+		rotate(0turn)
+		translate(-50%,-50%);
+        opacity: 0;
+	}
+}
+.partInSurround {
+    animation: partInSurround 1s;
+}
+.partOutSurround {
+    animation: partOutSurround 1s;
 }
