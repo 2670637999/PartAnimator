@@ -8,13 +8,3 @@
 <link rel="stylesheet" href="https://partanimator.glumi.cn/PartAnimator.css">
 ```
 相关文档：https://blog.glumi.cn/47.html
-
-
-## PartAnimator 
-A CSS transition animation library, which can be quickly reused in vue.js projects. Before using, you only need to master the basic Vue knowledge and Vue animation foundation, and introduce CSS files to get started quickly, which is very simple and easy to use.
-**Current number of animations: 10 (will continue to update over time)**
-## Get started quickly
-```
-<link rel="stylesheet" href=" https://partanimator.glumi.cn/PartAnimator.css ">
-```
-Related documents: https://blog.glumi.cn/47.html
