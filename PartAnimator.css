@@ -51,7 +51,7 @@
 }
 @keyframes part-enter-3 {
     0% {
-        transform: translateY(-200px);
+        transform: translateY(-100px);
         opacity: 0;
     }
     100% {
@@ -65,7 +65,7 @@
         opacity: 1;
     }
     100% {
-        transform: translateY(200px);
+        transform: translateY(100px);
         opacity: 0;
     }
 }
