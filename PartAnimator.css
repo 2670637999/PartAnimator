@@ -1,3 +1,4 @@
+
 @keyframes partInDefault {
     0% {
         opacity: 0;
@@ -19,6 +20,7 @@
 }
 .partOutDefault {
     animation: partOutDefault 1s; 
+    opacity: 0;
 }
 @keyframes partInLeft {
     0% {
@@ -45,6 +47,7 @@
 }
 .partOutRight {
     animation: partOutRight 1s;
+    opacity: 0;
 }
 @keyframes partInDown {
     0% {
@@ -71,6 +74,7 @@
 }
 .partOutDown {
     animation: partOutDown 1s;
+    opacity: 0;
 }
 @keyframes partInZoom {
     0% {
@@ -97,6 +101,7 @@
 }
 .partOutZoom {
     animation: partOutZoom 1s;
+    opacity: 0;
 }
 @keyframes partInPut {
     0% {
@@ -132,6 +137,7 @@
 }
 .partOutPut {
     animation: partOutPut 1s; 
+    opacity: 0;
 }
 @keyframes partInRotation {
 	0% {
@@ -158,6 +164,7 @@
 }
 .partOutRotation {
     animation: partOutRotation 1s;
+    opacity: 0;
 }
 @keyframes partInSurround {
 	from{
@@ -204,6 +211,7 @@
 }
 .partOutSurround {
     animation: partOutSurround 1s;
+    opacity: 0;
 }
 @keyframes partInFlip {
     0% {
@@ -232,6 +240,7 @@
 }
 .partOutFlip {
     animation: partOutFlip 1s;
+    opacity: 0;
 }
 @keyframes partInTurn {
     0% {
@@ -258,6 +267,7 @@
 }
 .partOutTurn {
     animation: partOutTurn 1s;
+    opacity: 0;
 }
 @keyframes partInStretching {
     0% {
@@ -290,4 +300,5 @@
 }
 .partOutStretching {
     animation: partOutStretching 1s;
+    opacity: 0;
 }
