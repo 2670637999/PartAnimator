@@ -1,5 +1,5 @@
 
-@keyframes partInDefault {
+@keyframes part-enter-1 {
     0% {
         opacity: 0;
     }
@@ -7,7 +7,7 @@
         opacity: 1;
     }
 }
-@keyframes partOutDefault {
+@keyframes part-leave-1 {
     0% {
         opacity: 1;
     }   
@@ -15,16 +15,16 @@
         opacity: 0;
     }
 }
-.partInDefault {
-    animation: partInDefault 1s;
+.part-enter-1 {
+    animation: part-enter-1 1s;
 }
-.partOutDefault {
-    animation: partOutDefault 1s; 
+.part-leave-1 {
+    animation: part-leave-1 1s; 
     opacity: 0;
 }
-@keyframes partInLeft {
+@keyframes part-enter-2 {
     0% {
-        transform: translateX(-200px);
+        transform: translateX(-50px);
         opacity: 0;
     }
     100% {
@@ -32,24 +32,24 @@
         opacity: 1;
     }
 }
-@keyframes partOutRight {
+@keyframes part-leave-2 {
     0% {
         transform: translateX(0px);
         opacity: 1;
     }
     100% {
-        transform: translateX(300px);
+        transform: translateX(50px);
         opacity: 0;
     }
 }
-.partInLeft {
-    animation: partInLeft 1s;
+.part-enter-2 {
+    animation: part-enter-2 1s;
 }
-.partOutRight {
-    animation: partOutRight 1s;
+.part-leave-2 {
+    animation: part-leave-2 1s;
     opacity: 0;
 }
-@keyframes partInDown {
+@keyframes part-enter-3 {
     0% {
         transform: translateY(-200px);
         opacity: 0;
@@ -59,7 +59,7 @@
         opacity: 1;
     }
 }
-@keyframes partOutDown {
+@keyframes part-leave-3 {
     0% {
         transform: translateY(0px);
         opacity: 1;
@@ -69,14 +69,14 @@
         opacity: 0;
     }
 }
-.partInDown {
-    animation: partInDown 1s;
+.part-enter-3 {
+    animation: part-enter-3 1s;
 }
-.partOutDown {
-    animation: partOutDown 1s;
+.part-leave-3 {
+    animation: part-leave-3 1s;
     opacity: 0;
 }
-@keyframes partInZoom {
+@keyframes part-enter-4 {
     0% {
         transform: scale(2);
         opacity: 0;
@@ -86,7 +86,7 @@
         opacity: 1;
     }
 }
-@keyframes partOutZoom {
+@keyframes part-leave-4 {
     0% {
         transform: scale(1);
         opacity: 1;
@@ -96,14 +96,14 @@
         opacity: 0;
     }
 }
-.partInZoom {
-    animation: partInZoom 1s;
+.part-enter-4 {
+    animation: part-enter-4 1s;
 }
-.partOutZoom {
-    animation: partOutZoom 1s;
+.part-leave-4 {
+    animation: part-leave-4 1s;
     opacity: 0;
 }
-@keyframes partInPut {
+@keyframes part-enter-5 {
     0% {
         transform: scale(2);
         opacity: 0;
@@ -119,7 +119,7 @@
         transform: scale(1);
     }
 }
-@keyframes partOutPut {
+@keyframes part-leave-5 {
     0% {
         transform: scale(1);
         opacity: 1;
@@ -132,14 +132,14 @@
         opacity: 0;
     }
 }
-.partInPut {
-    animation: partInPut 1s;
+.part-enter-5 {
+    animation: part-enter-5 1s;
 }
-.partOutPut {
-    animation: partOutPut 1s; 
+.part-leave-5 {
+    animation: part-leave-5 1s; 
     opacity: 0;
 }
-@keyframes partInRotation {
+@keyframes part-enter-6 {
 	0% {
         transform: translateY(-100%) rotate(0deg);
         opacity: 0;
@@ -149,7 +149,7 @@
         opacity: 1;
     }
 }
-@keyframes partOutRotation {
+@keyframes part-leave-6 {
 	0% {
         transform: translateY(0%) rotate(-360deg);
         opacity: 1;
@@ -159,14 +159,14 @@
         opacity: 0;
     }
 }
-.partInRotation {
-    animation: partInRotation 1.5s;
+.part-enter-6 {
+    animation: part-enter-6 1.5s;
 }
-.partOutRotation {
-    animation: partOutRotation 1s;
+.part-leave-6 {
+    animation: part-leave-6 1s;
     opacity: 0;
 }
-@keyframes partInSurround {
+@keyframes part-enter-7 {
 	from{
 		transform: translate(50%, 0px)
 		rotate(0turn)
@@ -186,7 +186,7 @@
         opacity: 1;
 	}
 }
-@keyframes partOutSurround {
+@keyframes part-leave-7 {
 	from{
 		transform: translate(50%, 0px)
 		rotate(0turn)
@@ -206,14 +206,14 @@
         opacity: 0;
 	}
 }
-.partInSurround {
-    animation: partInSurround 1s;
+.part-enter-7 {
+    animation: part-enter-7 1s;
 }
-.partOutSurround {
-    animation: partOutSurround 1s;
+.part-leave-7 {
+    animation: part-leave-7 1s;
     opacity: 0;
 }
-@keyframes partInFlip {
+@keyframes part-enter-8 {
     0% {
         transform: scale3d(0,0,0) scaleX(-1);
         webkit-transform: scale3d(0,0,0) scaleX(-1);
@@ -224,7 +224,7 @@
         opacity: 1;
     }
 }
-@keyframes partOutFlip {
+@keyframes part-leave-8 {
     0% {
         transform: scaleX(1) scale3d(1,1,1);
         webkit-transform: scaleX(1) scale3d(1,1,1);
@@ -235,14 +235,14 @@
         webkit-transform: scale3d(0,0,0) scaleX(-1);
     }
 }
-.partInFlip {
-    animation: partInFlip 1s;
+.part-enter-8 {
+    animation: part-enter-8 1s;
 }
-.partOutFlip {
-    animation: partOutFlip 1s;
+.part-leave-8 {
+    animation: part-leave-8 1s;
     opacity: 0;
 }
-@keyframes partInTurn {
+@keyframes part-enter-9 {
     0% {
         transform: scaleX(-1);
         opacity: 0;
@@ -252,7 +252,7 @@
         opacity: 1;
     }
 }
-@keyframes partOutTurn {
+@keyframes part-leave-9 {
     0% {
         transform: scaleX(1);
         opacity: 1;
@@ -262,14 +262,14 @@
         opacity: 0;
     }
 }
-.partInTurn {
-    animation: partInTurn 1s;
+.part-enter-9 {
+    animation: part-enter-9 1s;
 }
-.partOutTurn {
-    animation: partOutTurn 1s;
+.part-leave-9 {
+    animation: part-leave-9 1s;
     opacity: 0;
 }
-@keyframes partInStretching {
+@keyframes part-enter-10 {
     0% {
         transform: scaleX(-0.1);
     }
@@ -282,7 +282,7 @@
         opacity: 1;
     }
 }
-@keyframes partOutStretching {
+@keyframes part-leave-10 {
     0% {
         transform: scaleX(1);
         opacity: 1;
@@ -295,10 +295,37 @@
         opacity: 0;
     }
 }
-.partInStretching {
-    animation: partInStretching 1s;
+.part-enter-10 {
+    animation: part-enter-10 1s;
 }
-.partOutStretching {
-    animation: partOutStretching 1s;
+.part-leave-10 {
+    animation: part-leave-10 1s;
+    opacity: 0;
+}
+@keyframes part-enter-11 {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px) scaley(0.1) scaleX(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scaley(1);
+    }
+}
+@keyframes part-leave-11 {
+    0% {
+        opacity: 1;
+        transform: scaley(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-100px) scaley(0.1) scaleX(0.5);
+    }
+}
+.part-enter-11 {
+    animation: part-enter-11 1s;
+}
+.part-leave-11 {
+    animation: part-leave-11 1s;
     opacity: 0;
 }
