@@ -1,3 +1,10 @@
+/* ----------------------------------------------
+ * 👉 [ PartAnimator ] 👈
+ * Licensed under FreeBSD License.
+ * Author: 陈陈菌
+ * See https://blog.glumi.cn/47.html for more info. 
+ * ---------------------------------------------- */
+ 
 @-webkit-keyframes part-enter-1 {
     0% {
         opacity: 0;
