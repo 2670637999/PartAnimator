@@ -13,7 +13,7 @@ part-enter-1 ~ part-enter-26 | part-leave-1 ~ part-leave-15
 或者 npm 安装
 ```
 npm install part-animator
-import 'part-animator/Part-Animator.css'
+import 'part-animator/PartAnimator.css'
 ```
 
 ### 原生写法
